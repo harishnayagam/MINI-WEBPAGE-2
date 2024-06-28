@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding-top: 100px;
+  margin: 4px;
+  
+}
+
+.top {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(130deg, rgba(170, 163, 160, 0.938), rgb(243, 108, 45), rgb(224, 23, 23));
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logobox {
+  max-width: 80px;
+  align-items: center;
+  border-radius: 40px;
+  box-shadow: -10px 5px 10px rgb(255, 255, 255);
+  background: linear-gradient(130deg, rgba(170, 163, 160, 0.938), rgb(243, 108, 45), rgb(224, 23, 23));
+  height: 80px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  justify-content: cover;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  min-width: 200px;
+  max-width: 300px;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Style Script";
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+}
+  .title:hover{
+  color: #ffffff;
+}
+
+.sidelink {
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  row-gap: 15px;
+  flex-shrink: 0;
+  flex: 3;
+}
+
+.link-text {
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: "Rancho";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.link-text:hover {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.image2 h2 {
+  display: flex;
+  justify-content:center;
+  color: #fc7334;
+  line-height: 60px;
+}
+.image2 h2:hover {
+  color: #f31000;
+}
+.image3{
+  width:200px;
+  height:400px; 
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.image3:hover{
+  margin-bottom: 40px;
+}
+.imgbox{
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  padding: 25px;
+  width:100%;
+  height:500px; 
+  
+}
+.image2 li {
+  color: rgb(0, 0, 0);
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  font-size:large;
+}
+.image2 li:hover{
+  color: rgb(91, 200, 228);
+}
+.contents li {
+  line-height: 50px;
+}
+
+.last {
+  background-color: rgb(92, 92, 92);
+  color: rgb(175, 175, 175);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last p {
+  margin: 5px;
+}
+
+.last-hover:hover {
+  color: aliceblue;
+}
+@media  (max-width:600px) {
+  .image2 li{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  }
+}
